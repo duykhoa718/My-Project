@@ -1,0 +1,24 @@
+** Profile: "SCHEMATIC1-bias"  [ c:\users\tuan quang lien\desktop\pspice\lm5116\lm5116\lm5116-pspicefiles\schematic1\bias.sim ] 
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/Tuan Quang Lien/Downloads/2N7002NXAK.lib" 
+.LIB "C:/Users/Tuan Quang Lien/Downloads/1N5819.spice.lib" 
+.LIB "C:/Users/Tuan Quang Lien/Downloads/sp8k80_spice/sp8k80.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 I(V_V1)
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

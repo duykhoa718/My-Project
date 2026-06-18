@@ -1,0 +1,67 @@
+* source LM5116
+R_R28         N22864 SW  2m TC=0,0 
+X_X14         N23174 N23284 SW CSD17304Q3
+R_R38         HO N23272  3 TC=0,0 
+R_R26         N22856 SW  2m TC=0,0 
+R_R34         N23166 SOURCE  2m TC=0,0 
+R_R29         N22922 SW  5.3k TC=0,0 
+R_R30         N22964 LO  3 TC=0,0 
+X_U5         VIN UVLO RT_SYNC EN RAMP 0 SS FB COMP VOUT 0 CS 0 0 LO VCC VOUT HB
++  HO SW 0 LM5116_TRANS
+C_C2         0 N22922  100p  TC=0,0 
+R_R35         N23170 SOURCE  2m TC=0,0 
+R_R32         N22972 N22964  3 TC=0,0 
+R_R27         N22860 SW  2m TC=0,0 
+R_R23         N22508 VOUT  10k TC=0,0 
+R_R36         N23174 SOURCE  2m TC=0,0 
+X_X11         N22864 N22972 CS CSD17304Q3
+R_R25         VREF VOUT  5.83k TC=0,0 
+R_R31         N22968 N22964  3 TC=0,0 
+R_R40         N23272 N23284  3 TC=0,0 
+X_X9         N22856 N22964 CS CSD17304Q3
+X_X12         N23166 N23272 SW CSD17304Q3
+X_X8         UVLO N22526 0 SP8K80
+R_R22         N22526 VOUT  10k TC=0,0 
+X_X10         N22860 N22968 CS CSD17304Q3
+X_U6         VREF VREF 0 ATL431A_TRANS
+R_R39         N23272 N23280  3 TC=0,0 
+X_X13         N23170 N23280 SW CSD17304Q3
+X_U4         N22508 VREF VOUT 0 N22526 TLV1701
+R_R33         0 CS  2m TC=0,0 
+R_R24         0 N22508  4.81k TC=0,0 
+V_V1         SOURCE 0 9.8
+D_D1         SOURCE VIN DI_1N5819 
+C_C4         0 VIN  100u  TC=0,0 
+C_C5         0 VIN  4.7u  TC=0,0 
+C_C6         0 UVLO  1u  TC=0,0 
+R_R41         UVLO VIN  10k TC=0,0 
+R_R42         0 UVLO  1.5k TC=0,0 
+R_R43         EN VIN  1Meg TC=0,0 
+C_C7         0 RT_SYNC  100p  TC=0,0 
+R_R44         0 RT_SYNC  10.2k TC=0,0 
+C_C8         0 RAMP  220p  TC=0,0 
+C_C9         0 SS  100p  TC=0,0 
+L_L1         N255050 VOUT  1.38u  
+L_L2         N29842 VOUT  1.38u  
+C_C10         0 VOUT  150u  TC=0,0 
+C_C11         0 VOUT  150u  TC=0,0 
+C_C12         0 VOUT  100n  TC=0,0 
+C_C13         0 VOUT  1u  TC=0,0 
+C_C14         0 VOUT  2.2u  TC=0,0 
+C_C15         0 VOUT  820n  TC=0,0 
+R_R45         FB VOUT  5.1k TC=0,0 
+R_R46         0 FB  1.21k TC=0,0 
+C_C16         N26186 FB  100p  TC=0,0 
+C_C17         COMP FB  10p  TC=0,0 
+R_R47         COMP N26186  226k TC=0,0 
+R_R48         0 VOUT  2k TC=0,0 
+R_R49         0 VOUT  0.3 TC=0,0 
+D_D4         VCC HB DI_1N5819 
+C_C18         SW HB  820n  TC=0,0 
+C_C19         0 VCC  1u  TC=0,0 
+C_C20         0 VOUT  1u  TC=0,0 
+R_R50         SW N29842  0.5m TC=0,0 
+R_R51         SW N255050  0.5m TC=0,0 
+C_C21         0 VOUT  150u  TC=0,0 
+C_C22         0 VOUT  150u  TC=0,0 
+D_D5         UVLO VIN DI_1N5819 
