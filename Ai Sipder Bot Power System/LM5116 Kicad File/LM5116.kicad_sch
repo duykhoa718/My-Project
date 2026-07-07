@@ -10277,7 +10277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820n"
+		(property "Value" "2.2u"
 			(at 264.16 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13791,7 +13791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "2.2u"
 			(at 231.14 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16167,7 +16167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "2.2u"
 			(at 241.3 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
