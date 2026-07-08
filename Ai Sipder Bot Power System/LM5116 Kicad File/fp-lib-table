@@ -11,4 +11,5 @@
 	(lib (name "SW_100SP1T1B4M2QE") (type "KiCad") (uri "C:/Users/Tuan Quang Lien/Documents/GitHub/Power-System-For-Ai-SpiderBot/LM5116 Component File/100SP1T1B4M2QE/SW_100SP1T1B4M2QE.pretty") (options "") (descr ""))
 	(lib (name "IQDH29NE2LM5CGATMA1") (type "KiCad") (uri "C:/Users/Tuan Quang Lien/Documents/GitHub/Power-System-For-Ai-SpiderBot/LM5116 Component File/IQDH29NE2LM5CGATMA1/IQDH29NE2LM5CGATMA1.pretty") (options "") (descr ""))
 	(lib (name "691137710002") (type "KiCad") (uri "C:/Users/Tuan Quang Lien/Documents/GitHub/Power-System-For-Ai-SpiderBot/LM5116 Component File/691137710002/691137710002.pretty") (options "") (descr ""))
+	(lib (name "NTTFS4C08NTAG") (type "KiCad") (uri "C:/Users/Tuan Quang Lien/Documents/GitHub/My-Project/Ai Sipder Bot Power System/LM5116 Component File/NTTFS4C08NTAG/KiCADv6/footprints.pretty") (options "") (descr ""))
 )

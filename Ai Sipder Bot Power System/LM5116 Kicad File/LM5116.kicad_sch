@@ -15652,7 +15652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSD17304Q3:DQG0008A"
+		(property "Footprint" "NTTFS4C08NTAG:WDFN8_3P30X3P30_ONS"
 			(at 209.55 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17005,7 +17005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSD17304Q3:DQG0008A"
+		(property "Footprint" "NTTFS4C08NTAG:WDFN8_3P30X3P30_ONS"
 			(at 88.9 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -17446,7 +17446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSD17304Q3:DQG0008A"
+		(property "Footprint" "NTTFS4C08NTAG:WDFN8_3P30X3P30_ONS"
 			(at 62.23 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17798,7 +17798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSD17304Q3:DQG0008A"
+		(property "Footprint" "NTTFS4C08NTAG:WDFN8_3P30X3P30_ONS"
 			(at 179.07 180.34 0)
 			(hide yes)
 			(show_name no)
