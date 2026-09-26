@@ -5054,12 +5054,6 @@
 		(uuid "41e0d80e-cb56-4a54-8a47-1c7b4ea4c48e")
 	)
 	(junction
-		(at 139.7 279.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4548d7db-8a5b-444e-a981-7ed66cdc536a")
-	)
-	(junction
 		(at 31.75 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5088,12 +5082,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f5f1daf-493c-4993-af69-02c560926cc5")
-	)
-	(junction
-		(at 139.7 294.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "661cf1b8-ea66-414e-a158-28bef40b5844")
 	)
 	(junction
 		(at 165.1 279.4)
@@ -5633,16 +5621,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 292.1) (xy 139.7 294.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a547550-1545-4aae-8c3d-0f53c8855afc")
-	)
-	(wire
-		(pts
 			(xy 91.44 151.13) (xy 93.98 151.13)
 		)
 		(stroke
@@ -5823,7 +5801,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 294.64) (xy 139.7 294.64)
+			(xy 133.985 294.64) (xy 137.16 294.64)
 		)
 		(stroke
 			(width 0)
@@ -5910,16 +5888,6 @@
 			(type default)
 		)
 		(uuid "73e31813-1399-4ec0-aee9-2ac04dc50efc")
-	)
-	(wire
-		(pts
-			(xy 139.7 279.4) (xy 152.4 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a4d5e1-f500-4d21-961f-b5a821605f37")
 	)
 	(wire
 		(pts
@@ -6113,7 +6081,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 279.4) (xy 139.7 279.4)
+			(xy 130.81 279.4) (xy 152.4 279.4)
 		)
 		(stroke
 			(width 0)
@@ -6623,16 +6591,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 294.64) (xy 139.7 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ac1731-5e58-4318-a010-a79c3da21f59")
-	)
-	(wire
-		(pts
 			(xy 530.86 220.98) (xy 530.86 232.41)
 		)
 		(stroke
@@ -6710,16 +6668,6 @@
 			(type default)
 		)
 		(uuid "d557b97b-9f45-4143-9dd1-44d9fa6700d7")
-	)
-	(wire
-		(pts
-			(xy 139.7 304.8) (xy 139.7 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c1a85d-fbd9-4979-af8b-70796c04e960")
 	)
 	(wire
 		(pts
@@ -6890,16 +6838,6 @@
 			(type default)
 		)
 		(uuid "f3ac13e3-c2f5-4fb3-8cdb-4b7048e1d8a3")
-	)
-	(wire
-		(pts
-			(xy 139.7 279.4) (xy 139.7 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f43a6e38-9165-4c20-b16d-a28dcc23abb9")
 	)
 	(wire
 		(pts
@@ -7676,7 +7614,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 139.7 307.34 0)
+		(at 137.16 294.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7687,7 +7625,7 @@
 		(fields_autoplaced yes)
 		(uuid "075b2f8a-92c7-4293-9a2f-54ed7ae14cbf")
 		(property "Reference" "#PWR050"
-			(at 139.7 312.42 0)
+			(at 137.16 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7698,7 +7636,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 139.573 311.15 0)
+			(at 137.033 298.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7708,7 +7646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 308.61 0)
+			(at 137.16 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7719,7 +7657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 308.61 0)
+			(at 137.16 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7730,7 +7668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 139.7 307.34 0)
+			(at 137.16 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11424,7 +11362,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "0"
 			(at 97.79 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11953,88 +11891,6 @@
 			(project "USB 2.0 HUB"
 				(path "/a1b0b12d-4135-4cc2-b5a1-d3c289e0357e"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 139.7 288.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d6d20cb-e743-48ca-a1c3-8a8336c5da81")
-		(property "Reference" "R1"
-			(at 142.24 287.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "634"
-			(at 142.24 289.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 140.716 288.544 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 139.7 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f2a84e8d-71b9-4d19-b612-fb54258213c2")
-		)
-		(pin "1"
-			(uuid "16ae6ae8-8e27-47e1-a939-14741c1aea89")
-		)
-		(instances
-			(project "USB 2.0 HUB"
-				(path "/a1b0b12d-4135-4cc2-b5a1-d3c289e0357e"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12690,88 +12546,6 @@
 			(project "USB 2.0 HUB"
 				(path "/a1b0b12d-4135-4cc2-b5a1-d3c289e0357e"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 139.7 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9be9488e-bb60-4041-b409-7f84c4deb4a2")
-		(property "Reference" "R2"
-			(at 142.24 299.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 142.24 302.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 140.716 301.244 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 139.7 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3913a67c-c179-4b63-acfa-ca025799168c")
-		)
-		(pin "2"
-			(uuid "8c9ab091-f667-454e-937b-82a1e3a09ed4")
-		)
-		(instances
-			(project "USB 2.0 HUB"
-				(path "/a1b0b12d-4135-4cc2-b5a1-d3c289e0357e"
-					(reference "R2")
 					(unit 1)
 				)
 			)
